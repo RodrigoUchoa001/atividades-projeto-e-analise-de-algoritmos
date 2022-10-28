@@ -1,8 +1,8 @@
 void main() {
-  print(atividade5(7));
+  print(calculaFatorial(7));
 }
 
-int atividade5(int num) {
+int calculaFatorial(int num) {
   int fatorial = 1;
   for (int i = 2; i <= num; i++) {
     fatorial *= i;

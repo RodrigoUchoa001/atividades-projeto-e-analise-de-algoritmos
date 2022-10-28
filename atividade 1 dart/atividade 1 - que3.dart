@@ -1,10 +1,10 @@
 import 'dart:io';
 
 void main() {
-  atividade3(2);
+  calculaIdadeEmDias(2);
 }
 
-void atividade3(int quantidade) {
+void calculaIdadeEmDias(int quantidade) {
   int diasAtual = DateTime.now().day.toInt() +
       (DateTime.now().month.toInt() * 30) +
       (DateTime.now().year.toInt() * 365);

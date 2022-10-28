@@ -1,5 +1,5 @@
 void main() {
-  print(atividade6(7));
+  print(somaFibonacci(7));
 }
 
 int fibonacci(int n) {
@@ -10,7 +10,7 @@ int fibonacci(int n) {
   }
 }
 
-int atividade6(int quantidade) {
+int somaFibonacci(int quantidade) {
   int somaDeFibonacci = 0;
 
   for (int i = 1; i <= quantidade; i++) {

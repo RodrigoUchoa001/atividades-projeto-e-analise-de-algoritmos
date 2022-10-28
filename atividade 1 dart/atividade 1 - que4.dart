@@ -1,8 +1,8 @@
 void main() {
-  print(atividade4('ffssff'));
+  print(verificaSeEPalindromo('ffssff'));
 }
 
-bool atividade4(String texto) {
+bool verificaSeEPalindromo(String texto) {
   bool ePalindromo = true;
 
   for (int i = 0; i < (texto.length / 2); i++) {
